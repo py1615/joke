@@ -16,5 +16,13 @@ namespace lunch
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a=3;
+            int b=5;
+            int sum;
+            sum = drink.water.add(a, b);
+        }
     }
 }
